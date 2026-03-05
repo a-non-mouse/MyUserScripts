@@ -5,17 +5,25 @@
 @match       https://www.google.com/search*
 ==/UserStyle== */
 
-/* AI Overview */
-#Odp5De, .olrp5b, .hdzaWe {
+#Odp5De, .olrp5b, .hdzaWe      /* AI Overview */
+, .zTzk8e                      /* Ads */
+, .zo2jmb.sdYvGf               /* Related Topics */
+, .W7GCoc.CNbPnc               /* Feedback */
+, .KFFQ0c .YfftMc              /* Weather Info */
+, .XDyW0e                      /* Microphone */
+, #sfooter                     /* Footer */
+, .logo                        /* Logo */
+, #appbar                      /* App Bar -- Product search, possibly other uses */
+{
     display: none !important;
 }
 
-button.plR5qb {
+button.plR5qb                  /* AI Button */
+{
     visibility: hidden;
     margin-left: -90px;
 }
 
-/* Ads */
-.zTzk8e {
-    display: none !important;
+.YNk70c, .JpWqif .appbar .YNk70c, .JpWqif .GyAeWb.YNk70c, .JpWqif #bGmlqc .YNk70c, .JpWqif .M8OgIe .YNk70c, .JpWqif .CuvrIe {
+    grid-template-columns: 20px repeat(20,36px) minmax(0,1fr)
 }

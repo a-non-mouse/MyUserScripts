@@ -42,8 +42,8 @@
         }
     },
     {
-        "id": 4,
-        "priority": 4,
+        "id": 5,
+        "priority": 5,
         "action": {
             "type": "allow"
         },
@@ -53,8 +53,8 @@
         }
     },
     {
-        "id": 5,
-        "priority": 5,
+        "id": 6,
+        "priority": 6,
         "action": {
             "type": "redirect",
             "redirect": {
